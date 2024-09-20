@@ -18,6 +18,7 @@
     {{--NEWSLETTER HEADER BAR--}}
     @include('layouts.newsletter_bar')
     {{--NAVBAR--}}
+    @include('layouts.navbar')
 
     {{--MAIN CONTENT--}}
     <div class="container">
@@ -26,6 +27,7 @@
 
     {{--FOOTER--}}
     @include('layouts.footer')
-</body>
 
+    <script src="{{asset('js/app.js')}}"></script>
+</body>
 </html>
