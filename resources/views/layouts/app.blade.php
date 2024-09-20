@@ -10,6 +10,7 @@
     <link href="https://fonts.google.com/specimen/Montserrat?query=mont">
 
     @vite('resources/css/app.css')
+
     <title>@yield('title', 'Default Title')</title>
 </head>
 
