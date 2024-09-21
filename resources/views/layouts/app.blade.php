@@ -8,8 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.google.com/specimen/Mulish?query=mulish">
     <link href="https://fonts.google.com/specimen/Montserrat?query=mont">
-
     @vite('resources/css/app.css')
+    <link rel="stylesheet" href="{{ asset('/public/css/style.css') }}">
 
     <title>@yield('title', 'Default Title')</title>
 </head>
@@ -21,7 +21,8 @@
     @include('layouts.navbar')
 
     {{--MAIN CONTENT--}}
-    <div class="container">
+    <div class="h-[140px]"></div>
+    <div class="container mx-auto">
         @yield('content')
     </div>
 
