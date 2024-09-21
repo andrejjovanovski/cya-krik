@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Donations Page')
 @section('content')
-<h1 class="text-5xl font-semibold text-center py-10">Донираj!</h1>
+<h1 class="text-5xl font-semibold text-center py-10 mt-10">Донираj!</h1>
 <div class="m-auto w-3/4">
     <nav class="relative flex w-full space-x-4 border-b border-lightGray ">
         <a href="#" class="text-center w-1/2 relative px-4 py-5 text-black nav-item hover:text-black text-2xl font-semibold" data-form="form-1">Индивидуа</a>

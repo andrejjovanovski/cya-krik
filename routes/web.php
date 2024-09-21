@@ -21,7 +21,7 @@ Route::get('/newsletter/monthly', function () {
 });
 
 Route::get('/donations', function () {
-    return view('layouts.donations_page');
+    return view('donations_page');
 });
 
 
