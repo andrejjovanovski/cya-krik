@@ -9,19 +9,20 @@
             </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-
-            <ul class="text-black flex flex-col p-4 md:p-0 md:flex-row md:space-x-4 rtl:space-x-reverse md:mt-0 items-center">
+            <a href="#">
                 <img id="logoImg2" class="h-16 w-16 hidden" src="{{ asset('images/Крик-лого.png') }}" alt="Secondary Logo">
+            </a>
+            <ul class="text-black flex flex-col p-4 md:p-0 md:flex-row md:space-x-4 rtl:space-x-reverse md:mt-0 items-center">
                 <li class="relative font-medium text-lg flex items-center">
                     <div class="dropdown-container inline-block">
                         <div class="dropdown-container">
-                            <button id="dropdownBtn" class="font-semibold bg-orange text-black text-2xl px-3 cursor-pointer flex items-center justify-center">
+                            <button id="dropdownBtn" class="bg-orange text-black text-2xl px-3 cursor-pointer flex items-center justify-center">
                                 За нас
                                 <i id="arrow" class="arrow down ml-2 mb-2 text-white"></i>
                             </button>
 
                             <ul id="customDropdown" class="hidden absolute bg-black text-white text-center">
-                                <li class="px-3 cursor-pointer">За Крик</li>
+                                <li class="px-3 cursor-pointer"><a href="{{route('about')}}">За Крик</a></li>
                                 <li class="px-3 cursor-pointer">Нашиот Тим</li>
                                 <li class="px-3 cursor-pointer">Волонтери</li>
                                 <li class="px-3 cursor-pointer">Архива</li>
@@ -30,16 +31,16 @@
 
                 </li>
                 <li class="li-elements-css mt-1">
-                    <a href="#" class="li-elements font-semibold text-2xl text-lg py-2 px-3 rounded-full">Услуги</a>
+                    <a href="#" class="li-elements text-lg py-2 px-3 rounded-full">Услуги</a>
                 </li>
                 <li class="li-elements-css mt-2">
-                    <a href="#" class="li-elements font-semibold text-2xl text-lg py-2 px-3 rounded-full">Проекти</a>
+                    <a href="#" class="li-elements  text-lg py-2 px-3 rounded-full">Проекти</a>
                 </li>
                 <li class="li-elements-css mt-2">
-                    <a href="#" class="li-elements font-semibold text-2xl text-lg py-2 px-3 rounded-full">Контакт</a>
+                    <a href="#contactUs" class="li-elements  text-lg py-2 px-3 rounded-full">Контакт</a>
                 </li>
                 <li class="mt-2">
-                    <a id="donate" href="#" class=" py-2 font-semibold px-3 text-white bg-black rounded-t-full rounded-full text-xl hover:bg-purple">
+                    <a id="donate" href="#" class=" py-2 px-5 text-white bg-black text-center rounded-t-full rounded-full text-xl tracking-wide hover:bg-purple">
                         Донирај
                     </a>
                 </li>

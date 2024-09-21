@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -18,6 +18,8 @@
 {{--FONTAWESOME CDN--}}
     <script src="https://kit.fontawesome.com/7cba051bd4.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
     @vite('resources/css/app.css')
 
     <title>KRIK | @yield('title', 'Default Title')</title>
@@ -29,17 +31,19 @@
     {{--NAVBAR--}}
     @include('layouts.navbar')
 
+
     {{--MAIN CONTENT--}}
-    <div class="">
+    <div class="h-[130px]"></div>
+    <div>
         @yield('content')
     </div>
+
 
     {{--FOOTER--}}
     @include('layouts.footer')
 
     <script src="{{asset('js/app.js')}}"></script>
-    <script src="{{asset('js/singleProjectCarousel.js')}}"></script>
-
+    <script src="https://kit.fontawesome.com/d1b1f864c2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
