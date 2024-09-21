@@ -85,7 +85,16 @@ border-bottom: 5px solid rgb(139, 117, 139);
     transform: translateX(230px);
 }
 
-.underline {
+.nav-item_ilija {
+    position: relative;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+
+
+
+.underline_ilija {
     position: absolute;
     bottom: 0;
     height: 50px;

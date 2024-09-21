@@ -4,13 +4,13 @@
 <h1 class="text-5xl font-semibold text-center py-10 mt-10">Донираj!</h1>
 <div class="m-auto w-3/4">
     <nav class="relative flex w-full space-x-4 border-b border-lightGray ">
-        <a href="#" class="text-center w-1/2 relative px-4 py-5 text-black nav-item hover:text-black text-2xl font-semibold" data-form="form-1">Индивидуа</a>
-        <a href="#" class="text-center w-1/2 relative px-4 py-5 text-black nav-item hover:text-black text-2xl font-semibold" data-form="form-2">Организација/Претпријатие</a>
-        <div class="absolute bottom-0 left-0 h-2 underline transition-all duration-300 ease-in-out bg-orange-500 rounded-full"></div>
+        <a href="#" class="text-center w-1/2 relative px-4 py-5 text-black nav-item_ilija hover:text-black text-2xl font-semibold" data-form="form-1">Индивидуа</a>
+        <a href="#" class="text-center w-1/2 relative px-4 py-5 text-black nav-item_ilija hover:text-black text-2xl font-semibold" data-form="form-2">Организација/Претпријатие</a>
+        <div class="absolute bottom-0 left-0 h-2 underline_ilija transition-all duration-300 ease-in-out bg-orange-500 rounded-full"></div>
     </nav>
 </div>
 <div class="mt-24 p-20 font bg-white rounded-3xl w-3/4 shadow-2xl m-auto mb-5">
-    <form id="form_donations" class="form bg-white border-rounded" action="#">
+    <form id="form_donations" class="form_ilija bg-white border-rounded" action="#">
         <h2 class="text-2xl mb-6 font-semibold">Lorem ipsum dolor sit amet consectetur.</h2>
         <div class="flex justify-between space-x-4 mt-6">
             <label class="relative cursor-pointer hover:bg-gray-200 rounded-full">
@@ -54,7 +54,7 @@
 <div id="form-donation-div">
 
     <div class="container mx-auto p-8 w-3/4">
-        <form id="form-1" action="#" method="" class="form hidden grid grid-cols-1 md:grid-cols-2 gap-6">
+        <form id="form-1" action="#" method="" class="form_ilija hidden grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="col-span-1">
                 <label for="donator-name" class="block text-lg font-semibold">Име на Донатор*</label>
                 <input type="text" id="donator-name" placeholder="Example Namington"
@@ -114,7 +114,7 @@
     </div>
     <!-- Form 2 -->
     <div class="container mx-auto p-8 w-3/4">
-        <form id="form-2" action="#" method="" class="form hidden grid grid-cols-1 md:grid-cols-2 gap-6">
+        <form id="form-2" action="#" method="" class="form_ilija hidden grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="col-span-1">
                 <label for="donator-name" class="block text-lg font-semibold">Име на Донатор*</label>
                 <input type="text" id="donator-name" placeholder="Example Namington"
