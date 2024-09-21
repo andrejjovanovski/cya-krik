@@ -60,6 +60,26 @@
 
     <div class="h-[400px]"></div>
 
+    {{--    Numbers section --}}
+
+    <hr class=" h-0.5 bg-black ">
+
+    <section class=" flex justify-center content-center p-10 text-center">
+
+        <div class="container content-center flex-wrap">
+            <p class=" text-red font-extrabold text-5xl">320+</p>
+            <p class="text-red capitalize">проекти</p>
+        </div>
+        <div class="container  content-center">
+            <p class="font-bold text-red text-5xl">580+</p>
+            <p class="text-red capitalize">волонтери</p>
+        </div>
+        <div class="container  content-center">
+            <p class="font-bold text-red text-5xl">25+</p>
+            <p class="text-red capitalize">партнери</p>
+        </div>
+
+    </section>
 
 
 @endsection
