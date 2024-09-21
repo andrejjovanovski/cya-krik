@@ -8,7 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.google.com/specimen/Mulish?query=mulish">
     <link href="https://fonts.google.com/specimen/Montserrat?query=mont">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+
     @vite('resources/css/app.css')
 
     <title>@yield('title', 'Default Title')</title>
