@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+
 @section('title', 'Home Page')
 
 @section('content')
@@ -84,7 +85,7 @@
 
     {{--    vide section and стани волонтер  --}}
 
-    <section class="flex justify-center content-center p-10">
+    <section class="flex justify-center content-center p-10 flex-wrap">
         <div class="container  justify-center ml-auto grid grid-cols-1 md:grid-cols-2 gap-8 ">
             <div class="shadow-lg p-8 rounded-xl" >
                 <video class="w-full rounded-lg" controls>
@@ -105,27 +106,57 @@
         </div>
     </section>
 
-
     {{--    news with slider --}}
+<div class="container mx-auto py-5 mb-0">
+    <h1 class="font-bold text-5xl ">Најнови Вести</h1>
+</div>
+{{--    needs to be fixed: date  yellow text in the image part--}}
 
-
-
-    <section>
-
-
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+{{--    image card section --}}
+    <section class="flex justify-center gap-6 py-20 ">
+        <div class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_2.jpg')] bg-cover bg-center" >
+{{--            by clicking on card user should be redirected to to project page--}}
             <a href="#">
-
-                <img class="rounded-t-lg" src="{{ asset('/public/images/Homepage/homepage_card_2.jpg') }}" alt="" />
-
             </a>
-            <div class="p-5">
-                <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+            <div class="p-6 shadow-black flex-col flex justify-end content-end mt-52 ">
+                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност eco-action </p>
+                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, itaque.</p>
+                <a href="#" class="inline-flex items-center text-lightGray capitalize">
+                    види повеќе
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
                 </a>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    Read more
+            </div>
+
+        </div>
+
+        <div class="max-w-sm  rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_2.jpg')] bg-cover bg-center" >
+{{--            by clicking on card user should be redirected to to project page--}}
+            <a href="#">
+            </a>
+            <div class="p-6 shadow-lg flex-col flex justify-end content-end mt-52 ">
+                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност eco-action </p>
+                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, itaque.</p>
+                <a href="#" class="inline-flex items-center text-lightGray capitalize">
+                    види повеќе
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+        <div class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_3.jpg')] bg-cover bg-center" >
+
+{{--            by clicking on card user should be redirected to to project page--}}
+            <a href="#">
+            </a>
+            <div class="p-6 shadow-2xl flex-col flex justify-end content-end mt-52 ">
+                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност eco-action </p>
+                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, itaque.</p>
+                <a href="#" class="inline-flex items-center text-lightGray capitalize">
+                    види повеќе
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                     </svg>
@@ -133,7 +164,52 @@
             </div>
         </div>
 
+
+        <div class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_4.jpg')] bg-cover bg-center" >
+{{--            by clicking on card user should be redirected to to project page--}}
+            <a href="#">
+            </a>
+            <div class="p-6 shadow-lg flex-col flex justify-end content-end mt-52 ">
+                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност eco-action </p>
+                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, itaque.</p>
+                <a href="#" class="inline-flex items-center text-lightGray capitalize">
+                    види повеќе
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_2.jpg')] bg-cover bg-center" >
+{{--            by clicking on card user should be redirected to to project page--}}
+            <a href="#">
+            </a>
+            <div class="p-6 shadow-lg flex-col flex justify-end content-end mt-52 ">
+                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност eco-action </p>
+                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, itaque.</p>
+                <a href="#" class="inline-flex items-center text-lightGray capitalize">
+                    види повеќе
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+
     </section>
+
+{{--    missing slider for the images :( --}}
+
+    <div class=" containter flex flex-row justify-end">
+        <div class="flex mb-10">
+
+        <x-purple-btn><a href="">Види за цел Месец</a></x-purple-btn>
+        </div>
+    </div>
+
+
 
 
 @endsection
