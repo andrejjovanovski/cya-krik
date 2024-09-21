@@ -19,7 +19,7 @@
     <title>KRIK | @yield('title', 'Default Title')</title>
 </head>
 
-<body>
+<body class="bg-whiteBackground">
     {{--NEWSLETTER HEADER BAR--}}
     @include('layouts.newsletter_bar')
     {{--NAVBAR--}}
