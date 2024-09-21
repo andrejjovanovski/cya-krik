@@ -14,7 +14,7 @@
         <div class="border border-white my-10"></div>
         <div class="max-w-7xl mx-auto pt-10 px-5">
             <div class="flex justify-around items-baseline pb-10">
-                <div>
+                <div id="contactUs">
                     <h3 class="text-white text-2xl mb-7 font-heading">Контактирај не!</h3>
                     <form action="" class="max-w-[310px]">
                         <x-text-input placeholder="Вашето име" class="placeholder:text-white"/>
