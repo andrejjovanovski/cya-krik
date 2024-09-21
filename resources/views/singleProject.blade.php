@@ -1,11 +1,10 @@
 @extends('layouts.app')
-
+@section('title', 'Project showcase')
 
 @section('content')
 
     {{--    Carousel section --}}
-    <div class="h-[230px]"></div>
-    <div class="container flex justify-center items-center mx-auto ">
+    <div class="container flex justify-center items-center mx-auto mt-[5rem]">
         <div id="controls-carousel" class="relative w-full" data-carousel="static">
             <!-- Carousel wrapper -->
             <div class="relative flex  h-56 overflow-hidden rounded-lg md:h-96">

@@ -28,10 +28,10 @@
                                 <li class="px-3 cursor-pointer">Архива</li>
                             </ul>
                         </div>
-
+                        </div>
                 </li>
                 <li class="li-elements-css mt-1">
-                    <a href="#" class="li-elements text-lg py-2 px-3 rounded-full">Услуги</a>
+                    <a href="{{route('services')}}" class="li-elements text-lg py-2 px-3 rounded-full">Услуги</a>
                 </li>
                 <li class="li-elements-css mt-2">
                     <a href="#" class="li-elements  text-lg py-2 px-3 rounded-full">Проекти</a>
@@ -40,7 +40,7 @@
                     <a href="#contactUs" class="li-elements  text-lg py-2 px-3 rounded-full">Контакт</a>
                 </li>
                 <li class="mt-2">
-                    <a id="donate" href="#" class=" py-2 px-5 text-white bg-black text-center rounded-t-full rounded-full text-xl tracking-wide hover:bg-purple">
+                    <a id="donate" href="{{route('donations')}}" class=" py-2 px-5 text-white bg-black text-center rounded-t-full rounded-full text-xl tracking-wide hover:bg-purple">
                         Донирај
                     </a>
                 </li>
