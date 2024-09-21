@@ -11,9 +11,8 @@
                 <a href="#">En</a> /
                 <a href="#">Mkd</a>
             </div>
-
-            <div class="transform hover:scale-110 transition-transform">
-                <a href="#">E-Shop</a>
+            <div class="language-switcher">
+                <a href="{{route('products.index')}}">E-Shop</a>
             </div>
         </div>
     </div>
