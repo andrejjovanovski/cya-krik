@@ -20,6 +20,11 @@ Route::get('/newsletter/monthly', function () {
     return view('monthly_newsletter');
 });
 
+Route::get('/donations', function () {
+    return view('layouts.donations_page');
+});
+
+
 Route::get('/about', function () {
     return view('about');
 })->name('about');

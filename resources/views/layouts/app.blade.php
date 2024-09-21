@@ -30,6 +30,7 @@
     @include('layouts.navbar')
 
     {{--MAIN CONTENT--}}
+
     <div class="h-[130px]"></div>
     <div>
         @yield('content')
@@ -39,6 +40,7 @@
     @include('layouts.footer')
 
     <script src="{{asset('js/app.js')}}"></script>
+    <script src="https://kit.fontawesome.com/d1b1f864c2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

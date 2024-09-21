@@ -56,3 +56,30 @@ border-bottom: 5px solid rgb(139, 117, 139);
       transform: scale(0);
     }
   }
+  .nav-item {
+    position: relative;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.underline {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    background-color: #fb5e3c;
+    border-radius: 9999px;
+    transition: transform 0.3s ease, width 0.3s ease;
+    margin-left: 0 !important;
+}
+
+#form_donations{
+ display: block;
+}
+#currency_select{
+    margin-left: 15px;
+}
+
+.form-submit-button:hover{
+    background-color: rgba(255,79,40,255);
+    border-bottom: 3px solid rgb(156, 22, 22);
+}
