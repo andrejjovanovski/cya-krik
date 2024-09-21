@@ -29,3 +29,7 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
+
+Route::get('/singleProject' , function () {
+    return view ('singleProject');
+});

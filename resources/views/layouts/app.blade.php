@@ -38,6 +38,8 @@
     @include('layouts.footer')
 
     <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{asset('js/singleProjectCarousel.js')}}"></script>
+
 </body>
 
 </html>
