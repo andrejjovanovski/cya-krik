@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('short_description');
             $table->text('description');
-            $table->text('price');
+            $table->string('price');
             $table->string('image_one');
             $table->string('image_two')->nullable();
             $table->string('image_three')->nullable();
