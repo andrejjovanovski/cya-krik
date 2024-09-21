@@ -23,13 +23,12 @@ Route::get('/services', function () {
 Route::get('/newsletter/monthly', function () {
     return view('monthly_newsletter');
 });
-
 Route::get('/donations', function () {
     return view('donations_page');
 })->name('donations');
 
 
-Route::get('/' , function () {
+Route::get('/', function () {
     return view('homepage');
 });
 
@@ -38,6 +37,8 @@ Route::get('/about', function () {
 })->name('about');
 
 
+
 Route::get('/singleProject' , function () {
     return view ('singleProject');
 })->name('singleProject');
+
