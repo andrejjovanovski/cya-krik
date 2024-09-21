@@ -1,27 +1,49 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+{{--CUSTOM FONTS CDN--}}
     <link href="https://fonts.google.com/specimen/Mulish?query=mulish">
     <link href="https://fonts.google.com/specimen/Montserrat?query=mont">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+
+{{--FONTAWESOME CDN--}}
+    <script src="https://kit.fontawesome.com/7cba051bd4.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
     @vite('resources/css/app.css')
-    <title>@yield('title', 'Default Title')</title>
+
+    <title>KRIK | @yield('title', 'Default Title')</title>
 </head>
-<body>
-{{--NEWSLETTER HEADER BAR--}}
 
-{{--NAVBAR--}}
+<body class="bg-whiteBackground">
+    {{--NEWSLETTER HEADER BAR--}}
+    @include('layouts.newsletter_bar')
+    {{--NAVBAR--}}
+    @include('layouts.navbar')
 
-{{--MAIN CONTENT--}}
-<div class="container-sm ">
-    @yield('content')
-</div>
 
-{{--FOOTER--}}
-@include('layouts.footer')
+    {{--MAIN CONTENT--}}
+    <div class="h-[130px]"></div>
+    <div>
+        @yield('content')
+    </div>
+
+
+    {{--FOOTER--}}
+    @include('layouts.footer')
+
+    <script src="{{asset('js/app.js')}}"></script>
+    <script src="https://kit.fontawesome.com/d1b1f864c2.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
