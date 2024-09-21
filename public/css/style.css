@@ -34,8 +34,8 @@
     border: 3px solid black;
     border-radius: 30px;
     transform: scale(1.2);
- 
 }
+
 #donate:hover{
 border-bottom: 5px solid rgb(139, 117, 139);
 }
@@ -60,6 +60,29 @@ border-bottom: 5px solid rgb(139, 117, 139);
     position: relative;
     padding-bottom: 8px;
     cursor: pointer;
+}
+
+.nav-item {
+    position: relative;
+    padding-bottom: 8px;
+    bottom: -2px;
+    height: 3px;
+    width: 100px;
+    background-color: #fb5e3c;
+    border-radius: 9999px;
+    transition: transform 0.3s ease, width 0.3s ease;
+}
+
+.nav-item.active ~ .underline {
+    transform: translateX(0);
+}
+
+.nav-item:nth-child(2).active ~ .underline {
+    transform: translateX(110px);
+}
+
+.nav-item:nth-child(3).active ~ .underline {
+    transform: translateX(230px);
 }
 
 .underline {

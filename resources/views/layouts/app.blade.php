@@ -18,6 +18,8 @@
 {{--FONTAWESOME CDN--}}
     <script src="https://kit.fontawesome.com/7cba051bd4.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
     @vite('resources/css/app.css')
 
     <title>KRIK | @yield('title', 'Default Title')</title>
@@ -30,7 +32,6 @@
     @include('layouts.navbar')
 
     {{--MAIN CONTENT--}}
-
     <div class="h-[130px]"></div>
     <div>
         @yield('content')
