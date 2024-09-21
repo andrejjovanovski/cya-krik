@@ -33,12 +33,20 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+
+    return view(view: 'about');
 })->name('about');
+
+// use App\Http\Controllers\TeamController;
+
+Route::get('/team', function() { 
+    return view('team'); })->name('team');
+
 
 
 
 Route::get('/singleProject' , function () {
     return view ('singleProject');
 })->name('singleProject');
+
 
