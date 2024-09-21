@@ -11,7 +11,7 @@
                 <a href="#">En</a>/<a href="#">Mkd</a>
             </div>
             <div class="language-switcher">
-                <a href="#">E-Shop</a>
+                <a href="{{route('products.index')}}">E-Shop</a>
             </div>
         </div>
     </div>
