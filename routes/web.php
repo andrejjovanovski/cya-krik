@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('/footer', function () {
     return view('test');
 });
+Route::get('/donations', function () {
+    return view('layouts.donations_page');
+});

@@ -14,14 +14,15 @@
     <title>@yield('title', 'Default Title')</title>
 </head>
 
-<body>
+<body class="bg-whiteBackground">
     {{--NEWSLETTER HEADER BAR--}}
     @include('layouts.newsletter_bar')
     {{--NAVBAR--}}
     @include('layouts.navbar')
 
     {{--MAIN CONTENT--}}
-    <div class="container">
+    <div class="h-[140px]"></div>
+    <div class="container m-auto ">
         @yield('content')
     </div>
 
@@ -29,6 +30,7 @@
     @include('layouts.footer')
 
     <script src="{{asset('js/app.js')}}"></script>
+    <script src="https://kit.fontawesome.com/d1b1f864c2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
