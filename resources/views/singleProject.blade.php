@@ -18,25 +18,25 @@
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
                     <img src="/images/about-image.jpg"
-                         class="absolute block rounded-lg w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                         class="absolute block rounded-xl w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                          alt="...">
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src="/images/Frame282.jpg"
-                         class="absolute block rounded-lg w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                         class="absolute block rounded-xl w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                          alt="...">
                 </div>
                 <!-- Item 4 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src="/images/about-image.jpg"
-                         class="absolute block rounded-lg w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                         class="absolute block rounded-xl w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                          alt="...">
                 </div>
                 <!-- Item 5 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src="/images/Frame282.jpg"
-                         class="absolute block rounded-lg w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                         class="absolute block rounded-xl w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                          alt="...">
                 </div>
             </div>
@@ -83,6 +83,8 @@
 
     </div>
 
+    {{--    goal of the project section --}}
+
     <div class="container mx-auto">
         <div class="container h-80 border-2 rounded-xl flex justify-between border-black">
             <div class="flex w-1/4 rounded-xl bg-black">
@@ -100,12 +102,63 @@
     </div>
 
 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, sapiente?
+    {{--    Section with content and image --}}
+
+    <div class="container gap-4 flex items-center  mx-auto py-20 ">
+        <div class=" h-80 border-2 rounded-xl border-black p-20">
+            <h3 class="font-bold text-5xl mb-5">За кого е наменет овој проект?</h3>
+            <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur beatae corporis eius
+                laudantium
+                libero odit pariatur ratione repellendus saepe vel. Adipisci asperiores consequatur error itaque maiores
+                nulla sapiente soluta voluptatum.</p>
+        </div>
+
+        <div class="container:lg w-1/3 flex justify-center items-center">
+            <img src="images/krik_za_koi_lica_1.jpg" alt="Image description" class="max-h-80">
+        </div>
+    </div>
 
 
 
-    {{--    carousel functionality --}}
+
+    {{--    progress bar section --}}
+    <div class="container w-full mx-auto gap-4 mt-8 p-10  px-10 flex justify-center items-center content-center">
+        <div class="relative w-full  h-12 border-3 border-black rounded-full">
+            <div class="h-full bg-orange rounded-full w-1/2"></div>
+            <span class="absolute right-2 top-1/2 transform -translate-y-1/2 text-black font-bold ">50%</span>
+        </div>
+    </div>
+
+
+    <div class="container mx-auto ">
+        <div class="mt-4 flex justify-end space-x-4 items-center">
+            <p class="text-lg font-bold">Заинтересиран/а си?</p>
+{{--                redirect to application --}}
+            <button class="mt-2 px-4 py-2 bg-black text-white font-bold  rounded-xl"><a href="#"> Пријави се!</a>
+
+            </button>
+        </div>
+
+        <!-- Support Section -->
+        <div class="mt-4 flex justify-end items-center space-x-4">
+            <p class="text-lg font-bold">Сакаш да не поддржиш?</p>
+
+            {{--                By clicking this button, the user will be navigated to the Donation Form Page.--}}
+
+            <button class="mt-2 px-4 py-2 bg-red text-white font-bold rounded-xl"><a href="#">Донирај</a>
+
+            </button>
+        </div>
+    </div>
+
+    </div>
+
+
+
     <script>
+
+        // carousel
+
         document.addEventListener('DOMContentLoaded', function () {
             const carousel = document.querySelector('[data-carousel="static"]');
             const items = carousel.querySelectorAll('[data-carousel-item]');
