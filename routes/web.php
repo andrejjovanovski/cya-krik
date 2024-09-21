@@ -16,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::resource('product', ProductController::class)->names('products');
 
+Route::get('/newsletter/monthly', function () {
+    return view('monthly_newsletter');
+});
+
 Route::get('/about', function () {
     return view('about');
 })->name('about');
