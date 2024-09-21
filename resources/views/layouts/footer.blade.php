@@ -1,4 +1,4 @@
-<footer class="mx-auto bg-black rounded-t-2xl py-10">
+<footer class="mx-auto bg-black rounded-t-2xl py-10 mt-5">
     <div class="max-w-7xl mx-auto py-10">
         <div class="flex justify-around items-center pb-10">
             <h2 class="text-white font-semibold text-5xl font-heading">Месечен <br> билтен</h2>
@@ -8,7 +8,7 @@
 
                 <x-text-input placeholder="Вашата Емаил Адреса" class="placeholder:text-white"/>
 
-                <x-orange-btn>CTA</x-orange-btn>
+                <x-orange-btn class="w-full">CTA</x-orange-btn>
             </form>
         </div>
         <div class="border border-white my-10"></div>
@@ -20,7 +20,7 @@
                         <x-text-input placeholder="Вашето име" class="placeholder:text-white"/>
                         <x-text-input placeholder="Вашата Емаил Адреса" class="placeholder:text-white"/>
                         <div class="w-full">
-                            <x-orange-btn>CTA</x-orange-btn>
+                            <x-orange-btn class="w-full">CTA</x-orange-btn>
                         </div>
                     </form>
                 </div>

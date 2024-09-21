@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +22,10 @@ Route::get('/footer', function () {
     return view('test');
 });
 
+
+Route::resource('product', ProductController::class)->names('products');
+
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+
