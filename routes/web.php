@@ -18,14 +18,15 @@ Route::resource('product', ProductController::class)->names('products');
 
 Route::get('/services', function () {
     return view('services');
-});
+})->name('services');
 
 Route::get('/newsletter/monthly', function () {
     return view('monthly_newsletter');
+});
 
 Route::get('/donations', function () {
     return view('donations_page');
-});
+})->name('donations');
 
 
 Route::get('/' , function () {
