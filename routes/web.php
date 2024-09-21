@@ -22,6 +22,7 @@ Route::get('/services', function () {
 
 Route::get('/newsletter/monthly', function () {
     return view('monthly_newsletter');
+});
 
 Route::get('/donations', function () {
     return view('donations_page');
@@ -30,3 +31,7 @@ Route::get('/donations', function () {
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+
+Route::get('/documents', function () {
+    return view('documents');
+});
