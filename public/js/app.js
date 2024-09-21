@@ -7,9 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const customDropdown = document.getElementById('customDropdown');
     const arrowDropDown = document.getElementById('arrow'); // Get the arrow element
 
-    /**
-     * hamburger toggle
-     */
     button.addEventListener('click', function () {
         if (navbar.classList.contains('hidden')) {
             navbar.classList.remove('hidden');
@@ -32,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         dropdownBtn.style.borderTopLeftRadius = '55px';
         dropdownBtn.style.borderTopRightRadius = '55px';
 
+        // Toggle arrow visibility
         arrowDropDown.style.display = 'block';
     });
 
@@ -113,21 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     moveUnderline(activeItem);
     showForm(activeItem.getAttribute("data-form"));
-});
-const radios = document.querySelectorAll('input[name="amount"]');
-const toggleButtons = document.querySelectorAll('.toggle-btn');
-radios.forEach((radio, index) => {
-    radio.addEventListener('change', function () {
-        toggleButtons.forEach((btn, i) => {
-            if (i === index) {
-                btn.classList.remove('border-black', 'text-black');
-                btn.classList.add('bg-black', 'text-white');
-            } else {
-                btn.classList.remove('bg-black', 'text-white');
-                btn.classList.add('border-black', 'text-black');
-            }
-        });
-    });
 });
 
 document.addEventListener("DOMContentLoaded", function () {

@@ -122,227 +122,224 @@
 </div>
 
 <style>
-.main-member,
-.small-member {
-    transition: all 0.5s ease;
-}
+    .main-member,
+    .small-member {
+        transition: all 0.5s ease;
+    }
 
-.member-img {
-    transition: transform 0.5s ease;
-    width: 250px;
-    height: 250px;
-    border-radius: 15%;
-}
-
-.main-member .member-img {
-    width: 450px;
-    height: 450px;
-    border-radius: 15%;
-    display: flex;
-    margin: 0 auto;
-}
-
-.arrow {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.arrow:hover {
-    transform: scale(1.1);
-}
-
-.small-member p {
-    margin-top: 2px;
-}
-
-.main-member p,
-.main-member h2 {
-    margin-top: 10px;
-}
-
-#left-small {
-    left: 15%;
-}
-
-#right-small {
-    right: 15%;
-}
-
-/* Bold styling for main member */
-.selected-member {
-    font-weight: bold;
-}
-
-/* LinkedIn button styling */
-.linkedin-btn {
-    background-color: #FB5E3C;
-    width: 55%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 30px;
-    padding: 0.5rem 1rem;
-    margin: 0 auto;
-    text-align: left;
-    text-decoration: none;
-}
-
-.linkedin-btn span {
-    flex: 1;
-}
-
-.arrow-icon {
-    flex: 0;
-    margin-left: 6rem;
-}
-
-.hidden {
-    display: none;
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-
-    /* Smaller screen sizes */
     .member-img {
-        width: 100px;
-        height: 100px;
+        transition: transform 0.5s ease;
+        width: 250px;
+        height: 250px;
+        border-radius: 15%;
     }
 
     .main-member .member-img {
-        width: 150px;
-        height: 150px;
-    }
-
-    #left-small,
-    #right-small {
-        position: static;
-        margin-top: 20px;
-    }
-
-    .main-member {
-        position: static;
-        margin-top: 30px;
+        width: 450px;
+        height: 450px;
+        border-radius: 15%;
+        display: flex;
+        margin: 0 auto;
     }
 
     .arrow {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
     }
 
+    .arrow:hover {
+        transform: scale(1.1);
+    }
+
+    .small-member p {
+        margin-top: 2px;
+    }
+
+    .main-member p,
+    .main-member h2 {
+        margin-top: 10px;
+    }
+
+    #left-small {
+        left: 15%;
+    }
+
+    #right-small {
+        right: 15%;
+    }
+
+    /* Bold styling for main member */
+    .selected-member {
+        font-weight: bold;
+    }
+
+    /* LinkedIn button styling */
     .linkedin-btn {
-        width: 90%;
+        background-color: #FB5E3C;
+        width: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 30px;
+        padding: 0.5rem 1rem;
+        margin: 0 auto;
+        text-align: left;
+        text-decoration: none;
+    }
+
+    .linkedin-btn span {
+        flex: 1;
     }
 
     .arrow-icon {
-        margin-left: 4rem;
+        flex: 0;
+        margin-left: 6rem;
     }
-}
 
 
-/* Updated Styles for Board Members Section */
-.border-black {
-    border-color: black;
-}
+    /* Media Queries for Responsiveness */
+    @media (max-width: 768px) {
 
-.rounded-md {
-    border-radius: 8px;
-}
+        /* Smaller screen sizes */
+        .member-img {
+            width: 100px;
+            height: 100px;
+        }
 
-.ml-8 {
-    margin-left: 2rem;
-}
+        .main-member .member-img {
+            width: 150px;
+            height: 150px;
+        }
 
-.text-center {
-    text-align: center;
-}
+        #left-small,
+        #right-small {
+            position: static;
+            margin-top: 20px;
+        }
 
-.text-black {
-    color: black;
-}
+        .main-member {
+            position: static;
+            margin-top: 30px;
+        }
 
-/* Container-60 for Centering and Width */
-.container-60 {
-    width: 60%;
-    margin: 0 auto;
+        .arrow {
+            width: 40px;
+            height: 40px;
+        }
 
-}
+        .linkedin-btn {
+            width: 90%;
+        }
 
-.hr-line {
-    border: none;
-    border-top: 2px solid black;
-    width: 100%;
-    margin: 2rem 0;
-    padding: 0 2rem;
+        .arrow-icon {
+            margin-left: 4rem;
+        }
+    }
 
-}
+
+    /* Updated Styles for Board Members Section */
+    .border-black {
+        border-color: black;
+    }
+
+    .rounded-md {
+        border-radius: 8px;
+    }
+
+    .ml-8 {
+        margin-left: 2rem;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-black {
+        color: black;
+    }
+
+    /* Container-60 for Centering and Width */
+    .container-60 {
+        width: 60%;
+        margin: 0 auto;
+
+    }
+
+    .hr-line {
+        border: none;
+        border-top: 2px solid black;
+        width: 100%;
+        margin: 2rem 0;
+        padding: 0 2rem;
+
+    }
 </style>
 
 <script>
-const teamMembers = [{
-        name: "Игор Димовски",
-        role: "Координатор за волонтери во ЦМА - Крик",
-        image: "images/member1.jpg",
-        linkedin: "#"
-    },
-    {
-        name: "Матео Тренкоски",
-        role: "практикант во ЦМА Крик",
-        image: "images/member2.jpg",
-        linkedin: "#"
-    },
-    {
-        name: "Сара Димоска",
-        role: "Координатор во ЦМА Крик",
-        image: "images/member3.jpg",
-        linkedin: "#"
+    const teamMembers = [{
+            name: "Игор Димовски",
+            role: "Координатор за волонтери во ЦМА - Крик",
+            image: "images/member1.jpg",
+            linkedin: "#"
+        },
+        {
+            name: "Матео Тренкоски",
+            role: "практикант во ЦМА Крик",
+            image: "images/member2.jpg",
+            linkedin: "#"
+        },
+        {
+            name: "Сара Димоска",
+            role: "Координатор во ЦМА Крик",
+            image: "images/member3.jpg",
+            linkedin: "#"
+        }
+    ];
+
+    let currentIndex = 0;
+
+    function updateMemberDisplay(index) {
+        const member = teamMembers[index];
+        const leftIndex = (index === 0) ? teamMembers.length - 1 : index - 1;
+        const rightIndex = (index === teamMembers.length - 1) ? 0 : index + 1;
+
+        // Update main member
+        document.getElementById('member-image').src = member.image;
+        document.getElementById('member-name').innerText = member.name;
+        document.getElementById('member-role').innerText = member.role;
+        document.getElementById('linkedin-link').href = member.linkedin;
+
+        document.getElementById('linkedin-link').style.display = 'block';
+
+        // Update small members
+        document.getElementById('left-image').src = teamMembers[leftIndex].image;
+        document.getElementById('left-name').innerText = teamMembers[leftIndex].name;
+        document.getElementById('left-role').innerText = teamMembers[leftIndex].role;
+
+        document.getElementById('right-image').src = teamMembers[rightIndex].image;
+        document.getElementById('right-name').innerText = teamMembers[rightIndex].name;
+        document.getElementById('right-role').innerText = teamMembers[rightIndex].role;
+
+        // Remove selected-member class from all and add to the main member
+        document.querySelectorAll('.small-member p').forEach((el) => {
+            el.classList.remove('selected-member');
+        });
+        document.getElementById('member-name').classList.add('selected-member');
+        document.getElementById('member-role').classList.add('selected-member');
     }
-];
 
-let currentIndex = 0;
-
-function updateMemberDisplay(index) {
-    const member = teamMembers[index];
-    const leftIndex = (index === 0) ? teamMembers.length - 1 : index - 1;
-    const rightIndex = (index === teamMembers.length - 1) ? 0 : index + 1;
-
-    // Update main member
-    document.getElementById('member-image').src = member.image;
-    document.getElementById('member-name').innerText = member.name;
-    document.getElementById('member-role').innerText = member.role;
-    document.getElementById('linkedin-link').href = member.linkedin;
-
-    document.getElementById('linkedin-link').style.display = 'block';
-
-    // Update small members
-    document.getElementById('left-image').src = teamMembers[leftIndex].image;
-    document.getElementById('left-name').innerText = teamMembers[leftIndex].name;
-    document.getElementById('left-role').innerText = teamMembers[leftIndex].role;
-
-    document.getElementById('right-image').src = teamMembers[rightIndex].image;
-    document.getElementById('right-name').innerText = teamMembers[rightIndex].name;
-    document.getElementById('right-role').innerText = teamMembers[rightIndex].role;
-
-    // Remove selected-member class from all and add to the main member
-    document.querySelectorAll('.small-member p').forEach((el) => {
-        el.classList.remove('selected-member');
+    document.getElementById('left-arrow').addEventListener('click', () => {
+        currentIndex = (currentIndex === 0) ? teamMembers.length - 1 : currentIndex - 1;
+        updateMemberDisplay(currentIndex);
     });
-    document.getElementById('member-name').classList.add('selected-member');
-    document.getElementById('member-role').classList.add('selected-member');
-}
 
-document.getElementById('left-arrow').addEventListener('click', () => {
-    currentIndex = (currentIndex === 0) ? teamMembers.length - 1 : currentIndex - 1;
+    document.getElementById('right-arrow').addEventListener('click', () => {
+        currentIndex = (currentIndex === teamMembers.length - 1) ? 0 : currentIndex + 1;
+        updateMemberDisplay(currentIndex);
+    });
+
     updateMemberDisplay(currentIndex);
-});
-
-document.getElementById('right-arrow').addEventListener('click', () => {
-    currentIndex = (currentIndex === teamMembers.length - 1) ? 0 : currentIndex + 1;
-    updateMemberDisplay(currentIndex);
-});
-
-updateMemberDisplay(currentIndex);
 </script>
 @endsection
