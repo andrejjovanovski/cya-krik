@@ -22,5 +22,10 @@ Route::get('/footer', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view(view: 'about');
 })->name('about');
+
+// use App\Http\Controllers\TeamController;
+
+Route::get('/team', function() { 
+    return view('team'); })->name('team');
