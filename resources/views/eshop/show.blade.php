@@ -24,7 +24,7 @@
             </div>
 
             <div class="flex justify-between items-end">
-                <p class="w-2/3">{{$product->description}}</p>
+                <p class="w-2/3 leading-relaxed font-light">{{$product->description}}</p>
                 <div class="flex justify-between items-center gap-5">
                     <button class="favoriteIcon">
                         <svg width="50" height="50" viewBox="0 0 60 60" fill="none"
