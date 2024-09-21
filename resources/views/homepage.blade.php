@@ -87,7 +87,7 @@
 
     <section class="flex justify-center content-center p-10 flex-wrap">
         <div class="container  justify-center ml-auto grid grid-cols-1 md:grid-cols-2 gap-8 ">
-            <div class="shadow-lg p-8 rounded-xl" >
+            <div class="shadow-lg p-8 rounded-xl">
                 <video class="w-full rounded-lg" controls>
                     <source src="" type="video/mp4">
                     video
@@ -95,11 +95,14 @@
             </div>
 
 
-            <div class="flex flex-col justify-between w-2/4  shadow-lg p-8 bg-black rounded-3xl" >
+            <div class="flex flex-col justify-between w-2/4  shadow-lg p-8 bg-black rounded-3xl">
                 <h3 class="text-4xl font-bold mb-4 text-white">Стани волонтер</h3>
-                <p class="text-lg mb-6 capitalize text-lightGray">сакаш да работиш со млади лица? оваа можност е токму за тебе.</p>
+                <p class="text-lg mb-6 capitalize text-lightGray">сакаш да работиш со млади лица? оваа можност е токму
+                    за тебе.</p>
                 <div class="flex">
-                    <button class="inline-block border-2 border-white text-white py-2 px-3 rounded-3xl capitalize text-center font-bold transition duration-300 ease-in-out hover:bg-white hover:text-black"><a href="" >придружи ни се</a></button>
+                    <button
+                        class="inline-block border-2 border-white text-white py-2 px-3 rounded-3xl capitalize text-center font-bold transition duration-300 ease-in-out hover:bg-white hover:text-black">
+                        <a href="">придружи ни се</a></button>
 
                 </div>
             </div>
@@ -107,91 +110,116 @@
     </section>
 
     {{--    news with slider --}}
-<div class="container mx-auto py-5 mb-0">
-    <h1 class="font-bold text-5xl ">Најнови Вести</h1>
-</div>
-{{--    needs to be fixed: date  yellow text in the image part--}}
+    <div class="container mx-auto py-5 mb-0">
+        <h1 class="font-bold text-5xl ">Најнови Вести</h1>
+    </div>
+    {{--    needs to be fixed: date  yellow text in the image part--}}
 
-{{--    image card section --}}
+    {{--    image card section --}}
     <section class="flex justify-center gap-6 py-20 ">
-        <div class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_2.jpg')] bg-cover bg-center" >
-{{--            by clicking on card user should be redirected to to project page--}}
+        <div
+            class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_2.jpg')] bg-cover bg-center">
+            {{--            by clicking on card user should be redirected to to project page--}}
             <a href="#">
             </a>
             <div class="p-6 shadow-black flex-col flex justify-end content-end mt-52 ">
-                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност eco-action </p>
-                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, itaque.</p>
+                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност
+                    eco-action </p>
+                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
+                    itaque.</p>
                 <a href="#" class="inline-flex items-center text-lightGray capitalize">
                     види повеќе
-                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                         fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M1 5h12m0 0L9 1m4 4L9 9"/>
                     </svg>
                 </a>
             </div>
 
         </div>
 
-        <div class="max-w-sm  rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_2.jpg')] bg-cover bg-center" >
-{{--            by clicking on card user should be redirected to to project page--}}
+        <div
+            class="max-w-sm  rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_2.jpg')] bg-cover bg-center">
+            {{--            by clicking on card user should be redirected to to project page--}}
             <a href="#">
             </a>
             <div class="p-6 shadow-lg flex-col flex justify-end content-end mt-52 ">
-                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност eco-action </p>
-                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, itaque.</p>
+                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност
+                    eco-action </p>
+                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
+                    itaque.</p>
                 <a href="#" class="inline-flex items-center text-lightGray capitalize">
                     види повеќе
-                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                         fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M1 5h12m0 0L9 1m4 4L9 9"/>
                     </svg>
                 </a>
             </div>
 
         </div>
-        <div class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_3.jpg')] bg-cover bg-center" >
+        <div
+            class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_3.jpg')] bg-cover bg-center">
 
-{{--            by clicking on card user should be redirected to to project page--}}
+            {{--            by clicking on card user should be redirected to to project page--}}
             <a href="#">
             </a>
             <div class="p-6 shadow-2xl flex-col flex justify-end content-end mt-52 ">
-                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност eco-action </p>
-                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, itaque.</p>
+                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност
+                    eco-action </p>
+                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
+                    itaque.</p>
                 <a href="#" class="inline-flex items-center text-lightGray capitalize">
                     види повеќе
-                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                         fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M1 5h12m0 0L9 1m4 4L9 9"/>
                     </svg>
                 </a>
             </div>
         </div>
 
 
-        <div class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_4.jpg')] bg-cover bg-center" >
-{{--            by clicking on card user should be redirected to to project page--}}
+        <div
+            class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_4.jpg')] bg-cover bg-center">
+            {{--            by clicking on card user should be redirected to to project page--}}
             <a href="#">
             </a>
             <div class="p-6 shadow-lg flex-col flex justify-end content-end mt-52 ">
-                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност eco-action </p>
-                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, itaque.</p>
+                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност
+                    eco-action </p>
+                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
+                    itaque.</p>
                 <a href="#" class="inline-flex items-center text-lightGray capitalize">
                     види повеќе
-                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                         fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M1 5h12m0 0L9 1m4 4L9 9"/>
                     </svg>
                 </a>
             </div>
         </div>
 
-        <div class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_2.jpg')] bg-cover bg-center" >
-{{--            by clicking on card user should be redirected to to project page--}}
+        <div
+            class="max-w-sm   rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 bg-[url('/public/images/Homepage/homepage_card_2.jpg')] bg-cover bg-center">
+            {{--            by clicking on card user should be redirected to to project page--}}
             <a href="#">
             </a>
             <div class="p-6 shadow-lg flex-col flex justify-end content-end mt-52 ">
-                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност eco-action </p>
-                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, itaque.</p>
+                <p class="mb-3  uppercase bg-orange text-black  rounded-full font-bold text-center w-30">активност
+                    eco-action </p>
+                <p class="mb-3   text-lightGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
+                    itaque.</p>
                 <a href="#" class="inline-flex items-center text-lightGray capitalize">
                     види повеќе
-                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                         fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M1 5h12m0 0L9 1m4 4L9 9"/>
                     </svg>
                 </a>
             </div>
@@ -200,17 +228,75 @@
 
     </section>
 
-{{--    missing slider for the images :( --}}
+    {{--    missing slider for the images :( --}}
 
     <div class=" containter flex flex-row justify-end">
         <div class="flex mb-10">
 
-        <x-purple-btn><a href="">Види за цел Месец</a></x-purple-btn>
+            <x-purple-btn><a href="">Види за цел Месец</a></x-purple-btn>
         </div>
     </div>
 
 
+    {{--    services section --}}
 
+    <div class="container mx-auto py-5 mb-0">
+        <h1 class="font-bold text-5xl ">Нашите услуги</h1>
+    </div>
+
+{{--    ovde fali fontawesome arrow button --}}
+
+    <section class="flex flex-row justify-center content-center mx-auto space-x-5">
+        <div
+            class="container ml-20  w-1/2 rounded-3xl  py-72 bg-cover bg-center bg-no-repeat bg-[url('/public/images/Homepage/homepage_uslugi_cardimg.jpg')]">
+        </div>
+
+        <div class="container py-5 w-1/2 space-y-12 ">
+            <h3 class="font-bold">01 Мултифункционален Центар за Крикни</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maiores quam quod rem ut. Eaque itaque labore maxime molestias nemo.</p>
+            {{--             redirecting user to service page --}}
+            {{--            <a href=""><i class="fa-solid fa-circle-chevron-right fa-x5"></i></a>--}}
+            <hr class="h-0.5 bg-black">
+
+            <h3 class="font-bold">02 Не зависни Станбени Единици</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet fugit ipsam ipsum magnam maxime, voluptate. Consequatur deserunt minus nesciunt!</p>
+            {{--             redirecting user to service page --}}
+            {{--            <a href=""><i class="fa-solid fa-circle-chevron-right fa-x5"></i></a>--}}
+            <hr class="h-0.5 bg-black">
+
+            <h3 class="font-bold">03 Советувалиште за Млади и Родители</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequatur debitis modi, molestias nihil nobis odit reprehenderit sunt vel voluptatem?</p>
+            {{--             redirecting user to service page --}}
+            {{--            <a href=""><i class="fa-solid fa-circle-chevron-right fa-x5"></i></a>--}}
+            <hr class="h-0.5 bg-black">
+        </div>
+    </section>
+
+{{--    Partners section --}}
+
+    <div class="container mx-auto py-5 mb-0">
+        <h1 class="font-bold text-5xl ">Партнери</h1>
+    </div>
+
+    <hr class=" h-0.5 bg-black ">
+
+    <section class=" flex justify-center content-center p-10 text-center">
+
+        <div class="container content-center flex-wrap">
+            <p class=" text-red font-extrabold text-5xl">320+</p>
+            <p class="text-red capitalize">проекти</p>
+        </div>
+        <div class="container  content-center">
+            <p class="font-bold text-red text-5xl">580+</p>
+            <p class="text-red capitalize">волонтери</p>
+        </div>
+        <div class="container  content-center">
+            <p class="font-bold text-red text-5xl">25+</p>
+            <p class="text-red capitalize">партнери</p>
+        </div>
+
+    </section>
+    <hr class=" h-0.5 bg-black ">
 
 @endsection
 
