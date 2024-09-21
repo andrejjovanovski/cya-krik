@@ -27,6 +27,12 @@ Route::get('/donations', function () {
     return view('donations_page');
 });
 
+
+Route::get('/' , function () {
+    return view('homepage');
+});
+
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+

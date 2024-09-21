@@ -31,11 +31,13 @@
     {{--NAVBAR--}}
     @include('layouts.navbar')
 
+
     {{--MAIN CONTENT--}}
     <div class="h-[130px]"></div>
     <div>
         @yield('content')
     </div>
+
 
     {{--FOOTER--}}
     @include('layouts.footer')
