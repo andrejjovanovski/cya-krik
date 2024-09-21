@@ -16,7 +16,7 @@
 {{--NAVBAR--}}
 
 {{--MAIN CONTENT--}}
-<div class="container">
+<div class="container-sm ">
     @yield('content')
 </div>
 

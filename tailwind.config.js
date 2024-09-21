@@ -17,6 +17,8 @@ export default {
             lightGray: '#CAC6C6',
             whiteBackground: '#FBF8F4',
             purple: '#B8AFDA',
+            lightPurple : '#b182e3',
+            activePurple : '#CBC3E3',
             red: '#FB5E3C',
         }
     },
