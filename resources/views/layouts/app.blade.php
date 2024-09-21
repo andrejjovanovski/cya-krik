@@ -8,8 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.google.com/specimen/Mulish?query=mulish">
     <link href="https://fonts.google.com/specimen/Montserrat?query=mont">
+
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
     @vite('resources/css/app.css')
-    <link rel="stylesheet" href="{{ asset('/public/css/style.css') }}">
+
+
 
     <title>@yield('title', 'Default Title')</title>
 </head>
