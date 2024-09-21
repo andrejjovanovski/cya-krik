@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('title', 'Donations Page')
-
 @section('content')
 <h1 class="text-5xl font-semibold text-center py-10">Донираj!</h1>
 <div class="m-auto w-3/4">
@@ -16,7 +15,7 @@
         <div class="flex justify-between space-x-4 mt-6">
             <label class="relative cursor-pointer hover:bg-gray-200 rounded-full">
                 <input type="radio" name="amount" value="1000" class="absolute opacity-0 w-full h-full cursor-pointer border-3 " />
-                <div class="toggle-btn w-[220px] px-4 py-3 border-3 border-black text-black rounded-full flex items-center justify-center transition ">
+                <div class=" toggle-btn w-[220px] px-4 py-3 border-3 border-black text-black rounded-full flex items-center justify-center transition ">
                     1000 Ден
                 </div>
             </label>
@@ -59,13 +58,13 @@
             <div class="col-span-1">
                 <label for="donator-name" class="block text-lg font-semibold">Име на Донатор*</label>
                 <input type="text" id="donator-name" placeholder="Example Namington"
-                    class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                    class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
             </div>
             <div class="col-span-1">
                 <label for="card-number" class="block text-lg font-semibold">Број на картичка*</label>
                 <div class="relative">
                     <input type="text" id="card-number" placeholder="****  ****  ****  ****"
-                        class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                        class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
                     <div class="absolute inset-y-0 right-0 flex items-center pr-3">
                         <i class="fa-brands fa-2xl fa-cc-mastercard p-1"></i>
                         <i class="fa-brands fa-2xl fa-cc-visa p-1"></i>
@@ -76,36 +75,36 @@
             <div class="col-span-1">
                 <label for="email" class="block text-lg font-semibold">Email*</label>
                 <input type="email" id="email" placeholder="example@email.com"
-                    class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                    class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
             </div>
             <div class="col-span-1 grid grid-cols-2 gap-6">
                 <div>
                     <label for="expiry-date" class="block text-lg font-semibold">MM/YY</label>
                     <input type="text" id="expiry-date" placeholder="MM/YY"
-                        class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                        class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
                 </div>
                 <div>
                     <label for="cvv" class="block text-lg font-semibold">CVV</label>
                     <input type="text" id="cvv" placeholder="CVV"
-                        class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                        class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
                 </div>
             </div>
             <div class="col-span-1">
                 <label for="phone-number" class="block text-lg font-semibold">Телефонски број*</label>
                 <input type="text" id="phone-number" placeholder="+389000000000"
-                    class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                    class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
             </div>
             <div class="col-span-1">
                 <label for="cardholder-name" class="block text-lg font-semibold">Име на сопственик*</label>
                 <input type="text" id="cardholder-name" placeholder="Example Namington"
-                    class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                    class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
             </div>
 
             <div class="col-span-2 grid grid-cols-2 gap-6">
                 <div>
                     <label for="donation-amount" class="block text-lg font-semibold">Сума за донирање*</label>
                     <input type="text" id="donation-amount" placeholder="a million?"
-                        class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                        class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
                 </div>
                 <div class="flex justify-center items-end">
                     <button type="submit" class="bg-red text-white px-6 py-3 rounded-full text-lg w-full form-submit-button">Донирај</button>
@@ -119,13 +118,13 @@
             <div class="col-span-1">
                 <label for="donator-name" class="block text-lg font-semibold">Име на Донатор*</label>
                 <input type="text" id="donator-name" placeholder="Example Namington"
-                    class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                    class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
             </div>
             <div class="col-span-1">
                 <label for="card-number" class="block text-lg font-semibold">Број на картичка*</label>
                 <div class="relative">
                     <input type="text" id="card-number" placeholder="****  ****  ****  ****"
-                        class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                        class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
                     <div class="absolute inset-y-0 right-0 flex items-center pr-3">
                         <i class="fa-brands fa-2xl fa-cc-mastercard p-1"></i>
                         <i class="fa-brands fa-2xl fa-cc-visa p-1"></i>
@@ -136,36 +135,36 @@
             <div class="col-span-1">
                 <label for="email" class="block text-lg font-semibold">Email*</label>
                 <input type="email" id="email" placeholder="example@email.com"
-                    class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                    class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
             </div>
             <div class="col-span-1 grid grid-cols-2 gap-6">
                 <div>
                     <label for="expiry-date" class="block text-lg font-semibold">MM/YY</label>
                     <input type="text" id="expiry-date" placeholder="MM/YY"
-                        class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                        class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
                 </div>
                 <div>
                     <label for="cvv" class="block text-lg font-semibold">CVV</label>
                     <input type="text" id="cvv" placeholder="CVV"
-                        class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                        class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
                 </div>
             </div>
             <div class="col-span-1">
                 <label for="phone-number" class="block text-lg font-semibold">Телефонски број*</label>
                 <input type="text" id="phone-number" placeholder="+389000000000"
-                    class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                    class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
             </div>
             <div class="col-span-1">
                 <label for="cardholder-name" class="block text-lg font-semibold">Име на сопственик*</label>
                 <input type="text" id="cardholder-name" placeholder="Example Namington"
-                    class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                    class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
             </div>
 
             <div class="col-span-2 grid grid-cols-2 gap-6">
                 <div>
                     <label for="donation-amount" class="block text-lg font-semibold">Сума за донирање*</label>
                     <input type="text" id="donation-amount" placeholder="a million?"
-                        class="mt-1 p-3 w-full border-3 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
+                        class="mt-1 p-3 w-full border-2 border-black rounded-full placeholder-gray-300 cursor-pointer placeholder:text-xl placeholder:font-semibold hover:bg-gray-200 focus:placeholder-transparent focus:bg-transparent">
                 </div>
                 <div class="flex justify-center items-end">
                     <button type="submit" class="bg-red text-white px-6 py-3 rounded-full text-lg w-full form-submit-button">Донирај</button>
