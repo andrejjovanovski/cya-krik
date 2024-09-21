@@ -90,7 +90,7 @@
         <div class="space-y-4">
             @foreach (range(1, 5) as $i)
             <div id="faq-{{ $i }}"
-                class="border border-gray-200 rounded-lg overflow-hidden bg-white hover:bg-purple-200 transition duration-300">
+                class="rounded-2xl overflow-hidden bg-white hover:bg-purple-200 transition duration-300">
                 <div class="flex justify-between items-center p-4 cursor-pointer" onclick="toggleFaq({{ $i }})">
                     <span class="font-semibold text-lg text-black">0{{ $i }}. Lorem ipsum?</span>
                     <div class="icon-circle" id="icon-container-{{ $i }}">
