@@ -28,6 +28,38 @@
 
         {{--        Naskoro section --}}
 
+        <section class="flex flex-row  absolute left-1/2 transform -translate-x-1/2 bottom-[-350px]
+ ">
+            <div class="container bg-black p-10 rounded-l-3xl ">
+                <h3 class="text-orange mt-5 uppercase">Наскоро</h3>
+                <h4 class="text-whiteBackground mt-5">Нижеме заедно</h4>
+                <p class="text-lightGray mt-5">
+                    Проектот ""Еднакви можности за девојчињата и младите жени во Северна Македонија" го спроведуваат
+                    Националниот младински совет на Македонија и Stella Network, со финансиска поддршка од страна на
+                    Британската амбасада во Скопје.
+                </p>
+                <div class="flex space-x-8">
+
+                    {{--                                        missing routes for these buttons--}}
+                    <x-orange-btn class="mt-5 font-bold"><a href="">Види Повеќе</a></x-orange-btn>
+                    <x-purple-btn class="mt-5"><a href="">Пријави се</a></x-purple-btn>
+                </div>
+            </div>
+
+
+            <div
+                class="container  flex justify-end rounded-r-3xl   bg-cover bg-center bg-no-repeat bg-[url('/public/images/Homepage/homepage_nastan_750x655px.jpg')]"
+            >
+                <div class="container bg-black w-20 h-20 rounded-xl p-3 flex flex-col ">
+                    <p class="text-lightGray text-center font-bold mb-0">23</p>
+                    <p class="text-lightGray text-center font-bold">Септ</p>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="h-[400px]"></div>
+
 
 
 @endsection
