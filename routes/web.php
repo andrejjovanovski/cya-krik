@@ -61,6 +61,11 @@ Route::get('/newsletterPage' , function () {
     return view ('newsletterPage');
 });
 
+
+Route::get('/project', function () {
+    return view('project');
+});
+
 Route::get('/volunteer_application' , function () {
     return view ('volunteer_application');
 })->name('volunteer_application');
