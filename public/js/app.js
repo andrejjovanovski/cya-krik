@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
             itemRect.left - containerRect.left + item.parentElement.scrollLeft;
         const itemWidth = itemRect.width;
 
-        underline.style.transform = `translateX(${offsetLeft}px)`;
+        underline.style.transform = `translateX(${offsetLeft - 30}px)`;
         underline.style.width = `${itemWidth}px`;
     }
 
