@@ -52,4 +52,6 @@ Route::get('/singleProject' , function () {
     return view ('singleProject');
 })->name('singleProject');
 
-
+Route::get('/volunteer_application' , function () {
+    return view ('volunteer_application');
+})->name('volunteer_application');
