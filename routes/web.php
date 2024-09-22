@@ -53,3 +53,7 @@ Route::get('/singleProject' , function () {
 })->name('singleProject');
 
 
+Route::get('/singleNewsletterPage' , function () {
+    return view ('singleNewsLetterPage');
+})->name('singleNewsLetterPage');
+
