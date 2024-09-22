@@ -40,7 +40,7 @@
 
 
     {{--FOOTER--}}
-{{--    @include('layouts.footer')--}}
+    @include('layouts.footer')
 
     <script src="{{asset('js/app.js')}}"></script>
     <script src="https://kit.fontawesome.com/d1b1f864c2.js" crossorigin="anonymous"></script>
