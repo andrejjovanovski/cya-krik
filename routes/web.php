@@ -35,3 +35,11 @@ Route::get('/about', function () {
 Route::get('/documents', function () {
     return view('documents');
 });
+
+Route::get('/project', function () {
+    return view('project');
+});
+
+Route::get('/projecttest', function () {
+    return view('projecttest');
+});
