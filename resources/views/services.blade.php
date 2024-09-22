@@ -5,22 +5,22 @@
     <div class="container pt-4 mx-auto font-heading">
         <div class="container">
 
-        <nav class="relative flex justify-center mx-5 space-x-4 border-b border-lightGray text-m pt-11">
+        <nav class="relative flex justify-center mx-0 space-x-4 border-b border-lightGray text-m pt-11">
             <a href="#" class="relative px-4 py-2 text-black nav-item hover:text-black" data-header="Центар Крикни">Центар Крикни</a>
             <a href="#" class="relative px-4 py-2 text-black nav-item hover:text-black" data-header="Независни Станбени Единици">Независни Станбени Единици</a>
             <a href="#" class="relative px-4 py-2 text-black nav-item hover:text-black" data-header="Советујалите">Советујалите</a>
             <div class="absolute bottom-0 left-0 h-1 underline transition-all duration-300 ease-in-out bg-orange-500 rounded-full"></div>
         </nav>
     </div>
-        <div class="mt-20 max-w-7xl mx-auto">
+        <div class="mx-auto mt-20 max-w-7xl">
             <h1 id="header-title" class="text-4xl font-bold text-gray-800">Центар Крикни</h1>
-            <p class="mt-10 font-sans text-xs text-gray-600">
+            <p class="mt-10 font-sans text-gray-600 text-m">
                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio officiis quae vel explicabo laudantium dicta beatae perferendis nostrum, cumque quo perspiciatis voluptas, reiciendis culpa unde ad eveniet soluta sint. Modi ducimus eligendi illo illum harum maxime? Velit corrupti aliquid perferendis enim, quis repudiandae ducimus sequi, magni facilis, unde eaque provident dignissimos dolorum. Repudiandae eaque, quisquam corporis perspiciatis corrupti eum impedit.
             </p>
         </div>
 
-        <div class="my-20 max-w-7xl mx-auto">
-            <h2 class="font-semibold text-gray-800 text-xl tracking-wide">Галерија Со Активности</h2>
+        <div class="mx-auto my-20 max-w-7xl">
+            <h2 class="text-xl font-semibold tracking-wide text-gray-800">Галерија Со Активности</h2>
             <div class="grid grid-cols-3 gap-4 mt-6">
                 <div class="overflow-hidden rounded">
                     <img src="{{ asset('images/Rectangle 11.png') }}" class="w-full h-auto">

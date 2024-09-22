@@ -23,6 +23,7 @@ Route::get('/services', function () {
 Route::get('/newsletter/monthly', function () {
     return view('monthly_newsletter');
 });
+
 Route::get('/donations', function () {
     return view('donations_page');
 })->name('donations');
@@ -37,12 +38,14 @@ Route::get('/about', function () {
     return view(view: 'about');
 })->name('about');
 
-// use App\Http\Controllers\TeamController;
+
+Route::get('/documents', function () {
+    return view('documents');
+});
+
 
 Route::get('/team', function() { 
     return view('team'); })->name('team');
-
-
 
 
 Route::get('/singleProject' , function () {
