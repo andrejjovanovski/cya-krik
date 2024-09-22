@@ -24,7 +24,7 @@ class ProjectFactory extends Factory
             'description' => $this->faker->sentence(7),
             'project_goal' => $this->faker->paragraph(2),
             'progress' => rand(0, 10),
-            'image' => 'https://picsum.photos/seed/picsum/200/' . rand(290, 320),
+            'image' => 'https://picsum.photos/seed/picsum/200/'.rand(290, 320),
         ];
     }
 }

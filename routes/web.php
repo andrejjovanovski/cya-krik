@@ -28,7 +28,6 @@ Route::get('/donations', function () {
     return view('donations_page');
 })->name('donations');
 
-
 Route::get('/', function () {
     return view('homepage');
 });
@@ -44,12 +43,8 @@ Route::get('/team', function () {
     return view('team');
 })->name('team');
 
-
-
-
 Route::get('/singleProject', function () {
     return view('singleProject');
 })->name('singleProject');
-
 
 Route::get('/volunteers', [VolunteerController::class, 'index'])->name('volunteers.showAll');

@@ -17,7 +17,7 @@ class Volunteer extends Model
         'country',
         'is_longterm',
         'biography',
-        'image'
+        'image',
     ];
 
     public function projects()

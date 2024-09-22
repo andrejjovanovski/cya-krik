@@ -3,11 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\Volunteer;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
 use Faker\Factory as Faker;
-
-
+use Illuminate\Database\Seeder;
 
 class VolunteerSeeder extends Seeder
 {
@@ -23,7 +20,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Abes',
                 'country' => 'Турција',
                 'is_longterm' => true,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/1-Idil-Abes.png',
             ],
             [
@@ -31,7 +28,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Furkan',
                 'country' => 'Турција',
                 'is_longterm' => false,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/2-Melih-Furkan-Orta.png',
             ],
             [
@@ -39,7 +36,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Sevim',
                 'country' => 'Турција',
                 'is_longterm' => true,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/3-Bedirhan-Sevim.png',
             ],
             [
@@ -47,7 +44,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Cebeci',
                 'country' => 'Турција',
                 'is_longterm' => false,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/4-Zeynep-Cebeci.png',
             ],
             [
@@ -55,7 +52,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Ozkan',
                 'country' => 'Турција',
                 'is_longterm' => true,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/5-Merve-Ozkan.png',
             ],
             [
@@ -63,7 +60,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Cakan',
                 'country' => 'Турција',
                 'is_longterm' => false,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/6-Melek-Cakan.png',
             ],
             [
@@ -71,7 +68,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Pektaş',
                 'country' => 'Турција',
                 'is_longterm' => true,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/7-Melisa-Pektaş.png',
             ],
             [
@@ -79,7 +76,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Lacoste',
                 'country' => 'Франција',
                 'is_longterm' => true,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/8-Manon-Lacoste.png',
             ],
             [
@@ -87,7 +84,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Simone',
                 'country' => 'Франција',
                 'is_longterm' => true,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/9-Lisa-Simone.png',
             ],
             [
@@ -95,7 +92,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Alğın',
                 'country' => 'Турција',
                 'is_longterm' => true,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/10-Kaan-Alğın.png',
             ],
             [
@@ -103,7 +100,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Can',
                 'country' => 'Турција',
                 'is_longterm' => true,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/11-Metehan-Cam.png',
             ],
             [
@@ -111,7 +108,7 @@ class VolunteerSeeder extends Seeder
                 'lastname' => 'Karabay',
                 'country' => 'Турција',
                 'is_longterm' => true,
-                'biography' =>  $faker->paragraph(3),
+                'biography' => $faker->paragraph(3),
                 'image' => '/storage/volunteers/12-Ali-Karabay.png',
             ],
         ]);
