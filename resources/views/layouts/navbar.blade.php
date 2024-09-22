@@ -1,5 +1,5 @@
 <div class="pt-8 lg:pt-16 md:pt-16 sm:pt-10 m-auto pb-1 bg-orange w-full fixed z-40">
-    <div class="relative flex items-center justify-between w-3/4 m-auto">
+    <div class="relative flex items-center justify-between w-3/4 sm:w-full md:w-3/4 xs:w-full m-auto">
         <img id="logoImg" class="h-16 w-16" src="{{ asset('images/Крик-лого.png') }}" alt="Main Logo">
         <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black-500 rounded-lg md:hidden hover:bg-black-100 focus:outline-none   absolute right-0 top-0 mt-3 mr-3" aria-controls="navbar-default" aria-expanded="false">
             <span class="sr-only">Open main menu</span>

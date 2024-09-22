@@ -273,7 +273,6 @@
         width: 100%;
         margin: 2rem 0;
         padding: 0 2rem;
-
     }
 </style>
 
