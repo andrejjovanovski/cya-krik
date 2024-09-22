@@ -63,11 +63,12 @@
 .underline {
     position: absolute;
     bottom: -4px;
-    height: 3px;
-    width: 100px;
+    /height: 3px;
     background-color: #fb5e3c;
     border-radius: 9999px;
     transition: transform 0.3s ease, width 0.3s ease;
+    width: 100%;
+    left: 0;
 }
 
 .nav-item.active ~ .underline {
