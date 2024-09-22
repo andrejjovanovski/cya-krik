@@ -4,13 +4,13 @@
 
     <div class="container pt-4 mx-auto font-heading">
         <div class="container">
+            <nav class="relative flex justify-center max-w-3xl mx-auto space-x-8 border-b border-lightGray text-m pt-11">
+                <a href="#" class="relative px-4 py-4 text-black nav-item hover:text-black" data-header="Центар Крикни">Центар Крикни</a>
+                <a href="#" class="relative px-4 py-4 text-black nav-item hover:text-black" data-header="Независни Станбени Единици">Независни Станбени Единици</a>
+                <a href="#" class="relative px-4 py-4 text-black nav-item hover:text-black" data-header="Советујалите">Советујалите</a>
+                <div class="absolute bottom-0 left-0 h-1 underline transition-all duration-300 ease-in-out bg-orange-500 rounded-full"></div>
+            </nav>
 
-        <nav class="relative flex justify-center mx-0 space-x-4 border-b border-lightGray text-m pt-11">
-            <a href="#" class="relative px-4 py-2 text-black nav-item hover:text-black" data-header="Центар Крикни">Центар Крикни</a>
-            <a href="#" class="relative px-4 py-2 text-black nav-item hover:text-black" data-header="Независни Станбени Единици">Независни Станбени Единици</a>
-            <a href="#" class="relative px-4 py-2 text-black nav-item hover:text-black" data-header="Советујалите">Советујалите</a>
-            <div class="absolute bottom-0 left-0 h-1 underline transition-all duration-300 ease-in-out bg-orange-500 rounded-full"></div>
-        </nav>
     </div>
         <div class="mx-auto mt-20 max-w-7xl">
             <h1 id="header-title" class="text-4xl font-bold text-gray-800">Центар Крикни</h1>
@@ -42,28 +42,31 @@
     </div>
 
     <script>
-       document.addEventListener("DOMContentLoaded", function () {
+
+
+document.addEventListener("DOMContentLoaded", function () {
     const navItems = document.querySelectorAll(".nav-item");
     const underline = document.querySelector(".underline");
-    const headerTitle = document.getElementById("header-title");
+    const headerTitle = document.getElementById("header-title"); // Ensure this is the correct ID
     let activeItem = navItems[0];
 
     function moveUnderline(item) {
         const itemRect = item.getBoundingClientRect();
         const containerRect = item.parentElement.getBoundingClientRect();
-        let offsetLeft = itemRect.left - containerRect.left;
-        let itemWidth = itemRect.width;
+        const offsetLeft = itemRect.left - containerRect.left;
+        const itemWidth = itemRect.width;
 
-        underline.style.transform = `translateX(${offsetLeft - 30}px)`;
-        underline.style.width = `${itemWidth + 30}px`;
+        underline.style.transform = `translateX(${offsetLeft}px)`;
+        underline.style.width = `${itemWidth}px`;
     }
 
     navItems.forEach((item) => {
         item.addEventListener("click", () => {
-            headerTitle.textContent = item.getAttribute("data-header");
             navItems.forEach(i => i.classList.remove('active'));
             item.classList.add('active');
             activeItem = item;
+            headerTitle.textContent = item.getAttribute("data-header");
+
             moveUnderline(item);
         });
 
@@ -76,9 +79,11 @@
         });
     });
 
-
+    // Set initial position and header title
     moveUnderline(activeItem);
+    headerTitle.textContent = activeItem.getAttribute("data-header"); // Set initial title
 });
-    </script>
+
+     </script>
 
 @endsection
