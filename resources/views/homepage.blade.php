@@ -9,21 +9,17 @@
     {{--    responsive version needs to be fixed --}}
     {{--    slider--}}
 
-
-
     {{--    Hero Section  --}}
 
     <header
         {{--        needs to be fixed: title and the colors of the button--}}
-
         class="bg-cover  min-h-screen   flex justify-center py-40 bg-[url('/public/images/Homepage/herosection_1920x1120px.jpg')] relative  ">
         <div class="container flex-col justify-center w-80 ">
-            <h1 class=" text-5xl  md:text-4xl lg:text-5xl font-bold text-center uppercase">промената доаѓа од
+            <h1 class="text-5xl  md:text-4xl lg:text-5xl font-bold text-center uppercase">промената доаѓа од
                 младите </h1>
             <h2 class=" text-2xl  md:text-3l lg:text-3l font-bold text-center py-10 capitalize">кој сме ние? </h2>
             <p class="text-center  ">Центарот за младинкси активизам Крик е невладина , непрофитна организација основана
                 од млади луѓе, предводена од млади луѓе и работи за и со млади луѓе.</p>
-
             {{--             this button should redirect to about us page --}}
             <x-purple-btn class="mt-5"><a href="">Повеќе за нас</a></x-purple-btn>
         </div>
@@ -31,9 +27,8 @@
 
         {{--        Naskoro section --}}
 
-        <section class="flex flex-row  absolute left-1/2 transform -translate-x-1/2 bottom-[-350px]
- ">
-            <div class="container bg-black p-10 rounded-l-3xl ">
+        <section class="flex flex-row absolute left-1/2 transform -translate-x-1/2 bottom-[-350px]">
+            <div class="container w-5xl bg-black p-10 rounded-l-3xl ">
                 <h3 class="text-orange mt-5 uppercase">Наскоро</h3>
                 <h4 class="text-whiteBackground mt-5">Нижеме заедно</h4>
                 <p class="text-lightGray mt-5">
@@ -42,19 +37,18 @@
                     Британската амбасада во Скопје.
                 </p>
                 <div class="flex space-x-8">
-
                     {{--                                      redirect to more info about the event page--}}
-                    <x-orange-btn class="mt-5 font-bold"><a href="">Види Повеќе</a></x-orange-btn>
-
+                    <a href="">
+                        <x-orange-btn class="mt-5 font-bold"><a href="">Види Повеќе</a></x-orange-btn>
+                    </a>
                     {{--                    redirect to volunteers application form --}}
-                    <x-purple-btn class="mt-5"><a href="">Пријави се</a></x-purple-btn>
+                    <a href="">
+                        <x-purple-btn class="mt-5"><a href="">Пријави се</a></x-purple-btn>
+                    </a>
                 </div>
             </div>
-
-
             <div
-                class="container  flex justify-end rounded-r-3xl   bg-cover bg-center bg-no-repeat bg-[url('/public/images/Homepage/homepage_nastan_750x655px.jpg')]"
-            >
+                class="container  flex justify-end rounded-r-3xl   bg-cover bg-center bg-no-repeat bg-[url('/public/images/Homepage/homepage_nastan_750x655px.jpg')]">
                 <div class="container bg-black w-20 h-20 rounded-xl p-3 flex flex-col ">
                     <p class="text-lightGray text-center font-bold mb-0">23</p>
                     <p class="text-lightGray text-center font-bold">Септ</p>
@@ -83,37 +77,31 @@
             <p class="font-bold text-red text-5xl">25+</p>
             <p class="text-red capitalize">партнери</p>
         </div>
-
     </section>
-    <hr class=" h-1 bg-black ">
+    <hr class=" h-1 bg-black">
 
-    {{--    Video section and стани волонтер  --}}
-
-    <section class="flex justify-center content-center p-10 flex-wrap">
-        <div class="container  justify-center ml-auto grid grid-cols-1 md:grid-cols-2 gap-8 ">
-            <div class="shadow-lg p-8 rounded-xl">
-                <video class="w-full rounded-lg" controls>
-                    <source src="" type="video/mp4">
-                    video
-                </video>
+    <!-- Volunteer Section -->
+    <div class="mx-auto w-4/5 flex flex-col lg:flex-row my-5 space-y-6 lg:space-y-0 lg:space-x-4 mt-10 pt-10">
+        <div class="w-full lg:w-4/6">
+            <img class="rounded-2xl object-cover w-full h-[300px]" src="{{ asset('images/Group_307.jpg') }}" alt="">
+        </div>
+        <div class="w-full lg:w-2/6 bg-black rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+                <h1 class="text-2xl text-white font-bold">Стани</h1>
+                <h2 class="text-xl text-white font-bold">Волонтер</h2>
             </div>
-
-            <div class="flex flex-col justify-between w-2/4  shadow-lg p-8 bg-black rounded-3xl">
-                <h3 class="text-4xl font-bold mb-4 text-white">Стани волонтер</h3>
-                <p class="text-lg mb-6 capitalize text-lightGray">сакаш да работиш со млади лица? оваа можност е токму
-                    за тебе.</p>
-                <div class="flex">
-
-                    {{--                    redirect to volunteers application form --}}
-
-                    <button
-                        class="inline-block border-2 border-white text-white py-2 px-3 rounded-3xl capitalize text-center font-bold transition duration-300 ease-in-out hover:bg-white hover:text-black">
-                        <a href="">придружи ни се</a></button>
-
-                </div>
+            <p class="text-white mt-6">
+                Сакаш да работиш со млади лица? Оваа можност е токму за тебе.
+            </p>
+            <div class="mt-10">
+                <a href="#">
+                    <button type="button" class="hover:text-white border border-gray-800 font-medium rounded-2xl text-sm px-[40px] py-[10px] text-center dark:border-white dark:text-white">
+                        Придружи ни Се
+                    </button>
+                </a>
             </div>
         </div>
-    </section>
+    </div>
 
     {{--    news with slider --}}
 
@@ -242,7 +230,6 @@
 
     <div class=" containter flex flex-row justify-end">
         <div class="flex mb-10">
-
 
             {{--            this will navigate the user to the Newsletter page with all the news of that month.--}}
             <x-purple-btn><a href="">Види за цел Месец</a></x-purple-btn>
