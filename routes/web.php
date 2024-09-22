@@ -1,9 +1,10 @@
 <?php
 
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\VolunteerController;
 use Illuminate\Support\Facades\Route;
-
+use App\Models\Project;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/', function () {});
 
 Route::resource('product', ProductController::class)->names('products');
 
@@ -29,8 +32,10 @@ Route::get('/donations', function () {
     return view('donations_page');
 })->name('donations');
 
+
 Route::get('/', function () {
-    return view('homepage');
+    $projects = Project::all();
+    return view('homepage', compact('projects'));
 });
 
 Route::get('/about', function () {
@@ -44,8 +49,9 @@ Route::get('/documents', function () {
 })->name('documents');
 
 
-Route::get('/team', function() {
-    return view('team'); })
+Route::get('/team', function () {
+    return view('team');
+})
     ->name('team');
 
 Route::get('/singleProject', function () {
@@ -57,8 +63,8 @@ Route::get('/volunteers', [VolunteerController::class, 'index'])->name('voluntee
 Route::get('volunteer/{volunteer}', [VolunteerController::class, 'show'])->name('volunteers.show');
 
 
-Route::get('/newsletterPage' , function () {
-    return view ('newsletterPage');
+Route::get('/newsletterPage', function () {
+    return view('newsletterPage');
 });
 
 
@@ -75,7 +81,6 @@ Route::get('/team_member', function () {
     return view(view: 'team_member');
 })->name('team_member');
 
-Route::get('/singleNewsletterPage' , function () {
-    return view ('singleNewsLetterPage');
+Route::get('/singleNewsletterPage', function () {
+    return view('singleNewsLetterPage');
 })->name('singleNewsLetterPage');
-
