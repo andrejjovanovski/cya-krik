@@ -44,7 +44,7 @@ Route::get('/documents', function () {
 });
 
 
-Route::get('/team', function() { 
+Route::get('/team', function() {
     return view('team'); })->name('team');
 
 
@@ -53,3 +53,6 @@ Route::get('/singleProject' , function () {
 })->name('singleProject');
 
 
+Route::get('/newsletterPage' , function () {
+    return view ('newsletterPage');
+});
