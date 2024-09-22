@@ -3,18 +3,18 @@
 @section('title', 'За Нас - Крик')
 
 @section('content')
-<div class="container mx-auto py-20 w-3/4">
+<div class="container mx-auto pb-20 mt-[5rem] w-3/4">
     <!-- Header Section -->
     <div class="flex flex-wrap lg:flex-nowrap items-stretch mb-12">
         <!-- Image Section (Left Aligned) -->
-        <div class="w-full lg:w-1/2 flex justify-center mt-36 lg:justify-start lg:pr-8">
+        <div class="w-full lg:w-1/2 flex justify-center lg:justify-start lg:pr-8">
             <img src="{{ asset('images/about-image.jpg') }}" alt="About Image"
                 class="rounded-lg shadow-lg grayscale object-cover w-full h-full"
                 style="height: 100%; object-fit: cover;">
         </div>
 
         <!-- Text Section (Right Aligned) -->
-        <div class="w-full lg:w-1/2 flex flex-col lg:pl-8 justify-center mt-36">
+        <div class="w-full lg:w-1/2 flex flex-col lg:pl-8 justify-center">
             <h1 class="font-heading text-2xl font-semibold text-black mb-4">Центарот за младинскиот активизам Крик е
                 невладина,
                 непрофитна организација основана од страна на млади луѓе, предводена од млади луѓе и работи за и со

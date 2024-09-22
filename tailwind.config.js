@@ -18,7 +18,6 @@ export default {
         whiteBackground: '#FBF8F4',
         purple: '#B8AFDA',
         red: '#FB5E3C',
-        whiteBackground: '#FBF8F4',
       },
       boxShadow: {
         'bottom': '0 4px 6px rgba(0, 0, 0, 0.3)',
