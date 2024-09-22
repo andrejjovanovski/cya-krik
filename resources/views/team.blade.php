@@ -74,7 +74,7 @@
             <div class="container  container-60 mx-auto flex flex-col md:flex-row items-center justify-between py-8">
                 <div class="w-1/4 text-center">
                     <img src="images/board_member1.png" alt="Board Member 1"
-                        class="w-20 h-20 md:w-24 md:h-24 rounded-md mx-auto">
+                        class="w-50 h-50 rounded-md mx-auto">
                 </div>
                 <div class="w-3/4 ml-8">
                     <h3 class="text-black font-heading text-3xl">Lorem Ipsum</h3>
@@ -90,7 +90,7 @@
             <div class="container container-60 mx-auto flex flex-col md:flex-row items-center justify-between py-8">
                 <div class="w-1/4 text-center">
                     <img src="images/board_member2.jpg" alt="Board Member 2"
-                        class="w-20 h-20 md:w-24 md:h-24 rounded-md mx-auto">
+                        class="w-50 h-50 rounded-md mx-auto">
                 </div>
                 <div class="w-3/4 ml-8">
                     <h3 class="text-black font-heading text-3xl">Lorem Ipsum</h3>
@@ -106,7 +106,7 @@
             <div class="container container-60 mx-auto flex flex-col md:flex-row items-center justify-between py-8">
                 <div class="w-1/4 text-center">
                     <img src="images/board_member3.jpg" alt="Board Member 3"
-                        class="w-20 h-20 md:w-24 md:h-24 rounded-md mx-auto">
+                        class="w-50 h-50 rounded-md mx-auto">
                 </div>
                 <div class="w-3/4 ml-8">
                     <h3 class="text-black font-heading text-3xl">Lorem Ipsum</h3>
@@ -135,8 +135,8 @@
     }
 
     .main-member .member-img {
-        width: 450px;
-        height: 450px;
+        width: 500px;
+        height: 360px;
         border-radius: 15%;
         display: flex;
         margin: 0 auto;
