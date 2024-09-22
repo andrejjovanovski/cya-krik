@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\VolunteerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,7 +29,6 @@ Route::get('/donations', function () {
     return view('donations_page');
 })->name('donations');
 
-
 Route::get('/', function () {
     return view('homepage');
 });
@@ -48,10 +48,13 @@ Route::get('/team', function() {
     return view('team'); })
     ->name('team');
 
-
-Route::get('/singleProject' , function () {
-    return view ('singleProject');
+Route::get('/singleProject', function () {
+    return view('singleProject');
 })->name('singleProject');
+
+
+Route::get('/volunteers', [VolunteerController::class, 'index'])->name('volunteers.showAll');
+Route::get('volunteer/{volunteer}', [VolunteerController::class, 'show'])->name('volunteers.show');
 
 
 Route::get('/newsletterPage' , function () {
