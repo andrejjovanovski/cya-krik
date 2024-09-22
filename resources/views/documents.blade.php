@@ -18,14 +18,6 @@
 
 
 
-
-
-
-
-
-
-
-
 <div class="px-6 py-8">
     <!-- 2023 Section -->
     <div class="mb-12">
@@ -72,7 +64,7 @@
 
       <!-- View All Button -->
       <div class="flex justify-end mt-6">
-        <x-purple-btn>text</x-purple-btn>
+        <x-purple-btn class="tracking-wide">Види ги сите</x-purple-btn>
       </div>
     </div>
 
@@ -121,9 +113,7 @@
 
       <!-- View All Button for 2022 -->
       <div class="flex justify-end mt-6">
-        <button class="px-6 py-3 font-semibold text-purple-700 bg-purple-700 rounded-lg bg">
-          Види ги сите
-        </button>
+          <x-purple-btn class="tracking-wide">Види ги сите</x-purple-btn>
       </div>
     </div>
 
@@ -172,9 +162,7 @@
 
       <!-- View All Button for 2021 -->
       <div class="flex justify-end mt-6">
-        <button class="px-6 py-3 font-semibold text-purple-700 bg-purple-200 rounded-lg">
-          Види ги сите
-        </button>
+          <x-purple-btn class="tracking-wide">Види ги сите</x-purple-btn>
       </div>
     </div>
   </div>
