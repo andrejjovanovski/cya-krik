@@ -41,3 +41,8 @@ Route::get('/about', function () {
 Route::get('/singleProject' , function () {
     return view ('singleProject');
 })->name('singleProject');
+
+
+Route::get('/singleNewsletterPage' , function () {
+    return view ('singleNewsLetterPage');
+});
