@@ -49,4 +49,7 @@ Route::get('/singleProject' , function () {
     return view ('singleProject');
 })->name('singleProject');
 
+Route::get('/team_member', function () {
 
+    return view(view: 'team_member');
+})->name('team_member');
