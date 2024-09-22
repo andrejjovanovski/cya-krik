@@ -22,7 +22,7 @@ Route::get('/services', function () {
 
 Route::get('/newsletter/monthly', function () {
     return view('monthly_newsletter');
-});
+})->name('monthly_newsletter');
 
 Route::get('/donations', function () {
     return view('donations_page');
@@ -41,11 +41,12 @@ Route::get('/about', function () {
 
 Route::get('/documents', function () {
     return view('documents');
-});
+})->name('documents');
 
 
-Route::get('/team', function() { 
-    return view('team'); })->name('team');
+Route::get('/team', function() {
+    return view('team'); })
+    ->name('team');
 
 
 Route::get('/singleProject' , function () {
