@@ -53,6 +53,11 @@ Route::get('/singleProject' , function () {
     return view ('singleProject');
 })->name('singleProject');
 
+
+Route::get('/volunteer_application' , function () {
+    return view ('volunteer_application');
+})->name('volunteer_application');
+
 Route::get('/team_member', function () {
 
     return view(view: 'team_member');
@@ -61,4 +66,3 @@ Route::get('/team_member', function () {
 Route::get('/singleNewsletterPage' , function () {
     return view ('singleNewsLetterPage');
 })->name('singleNewsLetterPage');
-
