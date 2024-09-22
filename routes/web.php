@@ -48,3 +48,4 @@ Route::get('/singleProject', function () {
 })->name('singleProject');
 
 Route::get('/volunteers', [VolunteerController::class, 'index'])->name('volunteers.showAll');
+Route::get('volunteer/{volunteer}', [VolunteerController::class, 'show'])->name('volunteers.show');

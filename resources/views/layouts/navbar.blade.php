@@ -21,13 +21,15 @@
                             <ul id="customDropdown" class="hidden absolute bg-black text-white text-center">
                                 <li class="px-3 cursor-pointer">За Крик</li>
                                 <li class="px-3 cursor-pointer">Нашиот Тим</li>
-                                <li class="px-3 cursor-pointer">Волонтери</li>
+                                <a href="{{ route('volunteers.showAll') }}">
+                                    <li class="px-3 cursor-pointer">Волонтери</li>
+                                </a>
                                 <li class="px-3 cursor-pointer">Архива</li>
                             </ul>
                         </div>
                 </li>
                 <li class="li-elements-css mt-1">
-                    <a href="#" class="li-elements font-semibold text-2xl text-lg py-2 px-3 rounded-full">Услуги</a>
+                    <a href="{{ route('services') }}" class="li-elements font-semibold text-2xl text-lg py-2 px-3 rounded-full">Услуги</a>
                 </li>
                 <li class="li-elements-css mt-2">
                     <a href="#" class="li-elements font-semibold text-2xl text-lg py-2 px-3 rounded-full">Проекти</a>
@@ -36,7 +38,7 @@
                     <a href="#" class="li-elements font-semibold text-2xl text-lg py-2 px-3 rounded-full">Контакт</a>
                 </li>
                 <li class="mt-2">
-                    <a id="donate" href="#" class=" py-2 font-semibold px-3 text-white bg-black rounded-t-full rounded-full text-xl hover:bg-purple">
+                    <a id="donate" href="{{ route('donations') }}" class=" py-2 font-semibold px-3 text-white bg-black rounded-t-full rounded-full text-xl hover:bg-purple">
                         Донирај
                     </a>
                 </li>
