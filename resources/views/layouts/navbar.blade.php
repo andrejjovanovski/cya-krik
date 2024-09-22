@@ -29,7 +29,7 @@
                             <ul id="customDropdown" class="hidden absolute bg-black text-white text-center">
                                 <li class="px-3 cursor-pointer"><a href="{{route('about')}}">За Крик</a></li>
                                 <li class="px-3 cursor-pointer"><a href="{{route('team')}}">Нашиот тим</a></li>
-                                <li class="px-3 cursor-pointer">Волонтери</li>
+                                <li class="px-3 cursor-pointer"><a href="{{route('volunteers.showAll')}}">Волонтери</a></li>
                                 <li class="px-3 cursor-pointer"><a href="{{route('documents')}}">Архива</a></li>
                             </ul>
                         </div>
