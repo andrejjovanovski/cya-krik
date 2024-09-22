@@ -40,7 +40,7 @@
                        class="li-elements font-semibold text-2xl text-lg py-2 px-3 rounded-full">Услуги</a>
                 </li>
                 <li class="li-elements-css mt-2">
-                    <a href="#" class="li-elements font-semibold text-2xl text-lg py-2 px-3 rounded-full">Проекти</a>
+                    <a href="{{route('project')}}" class="li-elements font-semibold text-2xl text-lg py-2 px-3 rounded-full">Проекти</a>
                 </li>
                 <li class="li-elements-css mt-2">
                     <a href="#contactUs" class="li-elements font-semibold text-2xl text-lg py-2 px-3 rounded-full">Контакт</a>

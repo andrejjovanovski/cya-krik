@@ -62,15 +62,13 @@ Route::get('/singleProject', function () {
 Route::get('/volunteers', [VolunteerController::class, 'index'])->name('volunteers.showAll');
 Route::get('volunteer/{volunteer}', [VolunteerController::class, 'show'])->name('volunteers.show');
 
-
 Route::get('/newsletterPage', function () {
     return view('newsletterPage');
-});
-
+})->name('newsletterPage');
 
 Route::get('/project', function () {
     return view('project');
-});
+})->name('project');
 
 Route::get('/volunteer_application' , function () {
     return view ('volunteer_application');

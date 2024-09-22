@@ -18,7 +18,7 @@
 
                 <div class="w-1/2 p-4 text-right flex items-center justify-end mt-[150px]">
                     <div>
-                        <a href="#"><h2 class="font-bold text-3xl pb-4">Август, 2023</h2></a>
+                        <a href="{{route('newsletterPage')}}"><h2 class="font-bold text-3xl pb-4">Август, 2023</h2></a>
                         <p>Lorem ipsum dolor sit amet consectetur. In natoque euismod enim cursus velit in. Libero nisi morbi sed libero egestas.</p>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
 
                 <div class="w-1/2 p-4 text-left flex items-center">
                     <div>
-                        <a href="#"><h2 class="font-bold text-3xl pb-4">Јули, 2023</h2></a>
+                        <a href="{{route('newsletterPage')}}"><h2 class="font-bold text-3xl pb-4">Јули, 2023</h2></a>
                         <p>Lorem ipsum dolor sit amet consectetur. In natoque euismod enim cursus velit in. Libero nisi morbi sed libero egestas.</p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
 
                 <div class="w-1/2 p-4 text-right flex items-center justify-end">
                     <div>
-                        <a href="#"><h2 class="font-bold text-3xl pb-4">Јуни, 2023</h2></a>
+                        <a href="{{route('newsletterPage')}}"><h2 class="font-bold text-3xl pb-4">Јуни, 2023</h2></a>
                         <p>Lorem ipsum dolor sit amet consectetur. In natoque euismod enim cursus velit in. Libero nisi morbi sed libero egestas.</p>
                     </div>
                 </div>

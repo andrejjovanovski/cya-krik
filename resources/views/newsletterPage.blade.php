@@ -32,19 +32,19 @@
                 <h3 class="font-bold text-5xl">Lorem ipsum dolor sit amet, consectetur </h3>
                 <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda error eveniet harum
                     nisi quibusdam saepe?</p>
-                <x-black-btn><a href="#" class="px-10">CTA</a></x-black-btn>
+                <x-black-btn><a href="{{route('singleNewsLetterPage')}}" class="px-10">CTA</a></x-black-btn>
             </div>
             <div class="flex flex-col items-start w-1/3 gap-6">
                 <h3 class="font-bold text-2xl py-2">Lorem ipsum dolor sit amet, consectetur </h3>
                 <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda error eveniet harum
                     nisi quibusdam saepe?</p>
-                <x-black-btn><a href="#" class="px-10 py-2">CTA</a></x-black-btn>
+                <x-black-btn><a href="{{route('singleNewsLetterPage')}}" class="px-10 py-2">CTA</a></x-black-btn>
             </div>
             <div class="flex flex-col items-start w-1/3 gap-6">
                 <h3 class="font-bold text-2xl py-2">Lorem ipsum dolor sit amet, consectetur </h3>
                 <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda error eveniet harum
                     nisi quibusdam saepe?</p>
-                <x-black-btn><a href="#" class="px-10 py-2">CTA</a></x-black-btn>
+                <x-black-btn><a href="{{route('singleNewsLetterPage')}}" class="px-10 py-2">CTA</a></x-black-btn>
             </div>
         </div>
     </div>
@@ -63,21 +63,21 @@
                 <h3 class="font-bold ">Lorem ipsum dolor sit amet, consectetur </h3>
                 <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda error eveniet harum
                     nisi quibusdam saepe?</p>
-                <x-black-btn><a href="#" class="px-10">CTA</a></x-black-btn>
+                <x-black-btn><a href="{{route('singleNewsLetterPage')}}" class="px-10">CTA</a></x-black-btn>
             </div>
             <div class="flex flex-col items-start w-1/3 gap-6">
                 <p class="border-3 px-10 border-black rounded-xl mt-4 font-bold">03.08.2023</p>
                 <h3 class="font-bold text-2xl py-2">Lorem ipsum dolor sit amet, consectetur </h3>
                 <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda error eveniet harum
                     nisi quibusdam saepe?</p>
-                <x-black-btn><a href="#" class="px-10 py-2">CTA</a></x-black-btn>
+                <x-black-btn><a href="{{route('singleNewsLetterPage')}}" class="px-10 py-2">CTA</a></x-black-btn>
             </div>
             <div class="flex flex-col items-start w-1/3 gap-6">
                 <p class="border-3 px-10 border-black rounded-xl mt-4 font-bold">03.08.2023</p>
                 <h3 class="font-bold text-2xl py-2">Lorem ipsum dolor sit amet, consectetur </h3>
                 <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda error eveniet harum
                     nisi quibusdam saepe?</p>
-                <x-black-btn><a href="#" class="px-10 py-2">CTA</a></x-black-btn>
+                <x-black-btn><a href="{{route('singleNewsLetterPage')}}" class="px-10 py-2">CTA</a></x-black-btn>
             </div>
         </div>
     </div>
