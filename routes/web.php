@@ -29,13 +29,23 @@ Route::get('/donations', function () {
 })->name('donations');
 
 
-Route::get('/' , function () {
+Route::get('/', function () {
     return view('homepage');
 });
 
 Route::get('/about', function () {
-    return view('about');
+
+    return view(view: 'about');
 })->name('about');
+
+
+Route::get('/documents', function () {
+    return view('documents');
+});
+
+
+Route::get('/team', function() { 
+    return view('team'); })->name('team');
 
 
 Route::get('/singleProject' , function () {
@@ -45,4 +55,5 @@ Route::get('/singleProject' , function () {
 
 Route::get('/singleNewsletterPage' , function () {
     return view ('singleNewsLetterPage');
-});
+})->name('singleNewsLetterPage');
+
